@@ -1,3 +1,4 @@
+# rubocop:disable Style/Documentation
 class CreateTodos < ActiveRecord::Migration
   def change
     create_table :todos do |t|
