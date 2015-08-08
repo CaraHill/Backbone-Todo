@@ -1,4 +1,5 @@
-# This file should contain all the record creation needed to seed the database with
+# This file should contain all the record creation needed to
+# seed the database with
 # its default values.
 # The data can then be loaded with the rake db:seed (or created alongside the db
 # with db:setup).
@@ -9,7 +10,7 @@
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
 Todo.create([
-  { description: "Make the bed." },
-  { description: "Do the grocery shopping." },
-  { description: "Clean the house." }
+  { description: 'Make the bed.' },
+  { description: 'Do the grocery shopping.' },
+  { description: 'Clean the house.' }
 ])
