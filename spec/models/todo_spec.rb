@@ -1,5 +1,14 @@
 require 'rails_helper'
 
 RSpec.describe Todo, type: :model do
-  pending "add some examples to (or delete) #{__FILE__}"
+
+  before do
+    @todo = Todo.create(description: "Go to the store to get milk and eggs.")
+  end
+
+  it 'has a description' do
+    expect(@todo.description).to eq("Go to the store to get milk and eggs.")
+  end
+
+  Todo.destroy_all
 end
