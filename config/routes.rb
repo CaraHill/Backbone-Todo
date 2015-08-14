@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
   root 'home#index'
 
-  resources :todos, only: [:index]
+  resources :todos, only: [:index, :show]
 
   # The priority is based upon order of creation: first
   # created -> highest priority.

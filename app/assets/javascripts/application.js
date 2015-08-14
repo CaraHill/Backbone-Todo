@@ -18,11 +18,13 @@
 //= require backbone_rails_sync
 //= require backbone_datalink
 //= require backbone/backbone_todo
+//= require handlebars.runtime
+//= require handlebars
 //= require_tree .
 
 $(function(){
   BackboneTodo.Views.TodoView({
-    el: $('.todo')[0],
+    el: $('.todo-container'),
     model: new BackboneTodo.Collections.TodosCollection()
   });
 
