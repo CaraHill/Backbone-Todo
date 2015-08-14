@@ -19,3 +19,12 @@
 //= require backbone_datalink
 //= require backbone/backbone_todo
 //= require_tree .
+
+$(function(){
+  BackboneTodo.Views.TodoView({
+    el: $('.todo')[0],
+    model: new BackboneTodo.Collections.TodosCollection()
+  });
+
+  Backbone.history.start();
+});
