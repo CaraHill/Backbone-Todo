@@ -19,7 +19,6 @@
 //= require backbone_datalink
 //= require backbone/backbone_todo
 //= require handlebars.runtime
-//= require handlebars
 //= require_tree .
 
 $(function(){
